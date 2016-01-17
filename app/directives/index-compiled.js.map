@@ -1,1 +1,0 @@
-{"version":3,"sources":["index.js"],"names":[],"mappings":"AAAA,MAAM,CAAC,OAAO,GAAG,UAAU,QAAQ,EAAE;AACpC,QAAO,CAAC,yBAAyB,CAAC,CAAC,QAAQ,CAAC,CAAC;CAC7C,CAAC","file":"index-compiled.js","sourcesContent":["module.exports = function (ngModule) {\n\trequire('./mcm-reverse-directive')(ngModule);\n};"]}
