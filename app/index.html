@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Webpack</title>
+    <link href='https://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+    <style>
+        * {
+            font-family: 'Press Start 2P', cursive;
+        }
+    </style>
+</head>
+<body ng-app="app">
+    <section class="container" ng-controller="MainCtrl as main">
+        <h1>{{:: main.title }}</h1>
+
+
+        <input type="text" ng-model="text">
+        reversed is:
+        <mcm-reverse text="text"></mcm-reverse>
+    </section>
+
+    <script src="bundle.js"></script>
+</body>
+</html>
