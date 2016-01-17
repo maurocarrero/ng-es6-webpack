@@ -1,9 +1,12 @@
 'use strict';
 export default ngModule => {
 	ngModule.directive('mcmReverse', () => {
+
+		require('./mcm-reverse.css'); // css-loader and style-loader required
+
 		return {
 			restrict: 'E',
-			template: '<strong>{{ ctrl.result }}</strong>',
+			template: require('./mcm-reverse.html'), // raw-loader module required
 			scope: {
 				text: '='
 			},
